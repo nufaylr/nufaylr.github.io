@@ -93,7 +93,7 @@ input,
 button {
   margin: 0;
   padding: 0;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 input::-moz-focus-inner,
 button::-moz-focus-inner {
@@ -114,7 +114,7 @@ body,
 }
 body {
   background: #fff;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -160,7 +160,7 @@ body {
 }
 .logo-text {
   width: auto;
-  color: #000;
+  color: #979aaa;
   font-size: 24px;
   font-weight: 700;
   line-height: 57px;
@@ -279,7 +279,8 @@ a.article-title:hover,
 #header {
   font-size: 14px;
   position: relative;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #979aaa;
+  background: #4c516d;
 }
 #header.mobile-on #main-nav,
 #header.mobile-on #sub-nav {
@@ -312,6 +313,8 @@ a.article-title:hover,
 }
 .main-nav-link {
   font-weight: 600;
+  color: #979aaa;
+  border-bottom: 1px solid;
 }
 @media screen and (max-width: 839px) {
   .main-nav-link {
@@ -322,6 +325,7 @@ a.article-title:hover,
 #main-nav-toggle {
   display: none;
   font-size: 16px;
+  color: #979aaa;
   margin-left: -15px;
   font-family: FontAwesome;
 }
@@ -382,7 +386,7 @@ a.article-title:hover,
   float: left;
   font-size: 14px;
   background: none;
-  color: #111;
+  color: #979aaa;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -391,6 +395,7 @@ a.article-title:hover,
 }
 .search-form-submit {
   float: left;
+  color: #979aaa;
   padding: 0;
   font-family: FontAwesome;
   border: none;
@@ -510,7 +515,7 @@ a.article-title:hover,
   padding: 10px 0;
 }
 .article-entry blockquote {
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   margin: 1.4em 20px;
   text-align: center;
@@ -788,18 +793,19 @@ a.article-title:hover,
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
   color: #666;
-  font-size: 0.85em;
+  font-size: 15px;
+  padding-left: 10px;
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋';
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .article-entry code {
   background: #f2f2f2;
   padding: 0 0.3em;
 }
 .article-entry pre {
-  padding: 20px;
+  padding: 5px;
 }
 .article-entry pre code {
   background: none;
@@ -812,7 +818,7 @@ a.article-title:hover,
 .article-entry .highlight pre {
   border: none;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 5px;
 }
 .article-entry .highlight table {
   margin: 0;
@@ -1056,12 +1062,12 @@ pre .php .xml {
   padding: 0 !important;
   -webkit-border-radius: 0;
   border-radius: 0;
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .fancybox-skin .fancybox-title .child {
   background: none;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
 }
